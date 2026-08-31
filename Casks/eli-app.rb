@@ -1,8 +1,8 @@
-# Template — CI fills 0.0.10 / b93e339618f817ee81190bb994af629d3e6a7fd107c6a8e78a9aca4d360344e8 and commits the result to the
+# Template — CI fills 0.0.11 / 16f585ca5a8740a80a3ba4b306e789c1995ece9f3ca5e8caef68f828227fa8fa and commits the result to the
 # public homebrew-tap repo. The zip is hosted on the tap's own releases.
 cask "eli-app" do
-  version "0.0.10"
-  sha256 "b93e339618f817ee81190bb994af629d3e6a7fd107c6a8e78a9aca4d360344e8"
+  version "0.0.11"
+  sha256 "16f585ca5a8740a80a3ba4b306e789c1995ece9f3ca5e8caef68f828227fa8fa"
 
   url "https://github.com/Qu1etboy/homebrew-tap/releases/download/v#{version}/Eli-v#{version}-macos.zip"
   name "Eli"
