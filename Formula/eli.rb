@@ -1,17 +1,17 @@
-# Template — CI fills 0.0.11 / 510da62b3dec0247380be58f704d1212e0412049b8c39b312dade50c911e013b / addb4a4d9ef663b7921f896eaed2c239dc768c61003a60a36d02a3f2000f2725 and commits the
+# Template — CI fills 0.0.12 / 90e0beb10e6f4f20ef3d83a7cb76ddbc900d964d1d1a41d60cf9b34d724da3d3 / a910e52c39e969e4cd3b93dc55aaa57b0a03a52b38cadbf4e338b7b9f12fb7f7 and commits the
 # result to the public homebrew-tap repo. Binaries are hosted on the tap's own
 # releases, so the eli source repo can stay private.
 class Eli < Formula
   desc "Presence producer for Eli — mood, usage, and status for the menu bar"
   homepage "https://github.com/Qu1etboy/homebrew-tap"
-  version "0.0.11"
+  version "0.0.12"
 
   if Hardware::CPU.arm?
-    url "https://github.com/Qu1etboy/homebrew-tap/releases/download/v0.0.11/eli-v0.0.11-darwin-arm64.tar.gz"
-    sha256 "510da62b3dec0247380be58f704d1212e0412049b8c39b312dade50c911e013b"
+    url "https://github.com/Qu1etboy/homebrew-tap/releases/download/v0.0.12/eli-v0.0.12-darwin-arm64.tar.gz"
+    sha256 "90e0beb10e6f4f20ef3d83a7cb76ddbc900d964d1d1a41d60cf9b34d724da3d3"
   else
-    url "https://github.com/Qu1etboy/homebrew-tap/releases/download/v0.0.11/eli-v0.0.11-darwin-amd64.tar.gz"
-    sha256 "addb4a4d9ef663b7921f896eaed2c239dc768c61003a60a36d02a3f2000f2725"
+    url "https://github.com/Qu1etboy/homebrew-tap/releases/download/v0.0.12/eli-v0.0.12-darwin-amd64.tar.gz"
+    sha256 "a910e52c39e969e4cd3b93dc55aaa57b0a03a52b38cadbf4e338b7b9f12fb7f7"
   end
 
   def install
